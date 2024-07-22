@@ -9,3 +9,21 @@ There are tests written in @testing-library and run in vitest.
 Types are check by typescript and formatting/rules by eslint.
 
 ![UI of app](example.png)
+
+## How to build
+
+After install packages run
+
+```shell
+npm run build
+```
+
+and app will be builded into `dist` folder.
+
+For development you can use
+
+```shell
+npm run preview
+```
+
+and run it on your localhost.

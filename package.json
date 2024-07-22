@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "deploy": "npm run build -- --deploy-to-s3",
     "preview": "vite preview",
     "test": "vitest",
     "lint": "eslint . --ext .ts,.tsx,.cjs"
